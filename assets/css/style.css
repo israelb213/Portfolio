@@ -1,0 +1,182 @@
+header {
+    position: relative;
+    display: block;
+    width: 99%;
+    height:100%;
+    font-family: 'Georgia';
+    margin: 0 auto;
+    background-color: #ffffff ;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    padding:0px 10px 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    margin-right: 400px;
+  }
+
+  li {
+      display: block;
+      float: left;
+      text-align: center;
+      padding: 14px 15px;
+    
+  }
+
+  li a {
+    color: grey;
+    text-decoration: none;
+  }
+
+  #but2 {
+      border-left: solid 1px grey;
+      border-right: solid 1px grey;
+  }
+
+#name {
+    background-color: #4aaaa5;
+    float:left;
+    line-height: 2;
+    padding: 0;
+    margin:0;
+    margin-left: 465px;
+}
+
+#links{
+    float: right;
+}
+
+#content {
+    width:960px;
+    height: 100%;
+    color:#777777;
+    margin-left: 25%;
+    margin-top: 30px;
+    border-color: #dddddd;
+    background-color:#ffffff;
+    font-family: 'Arial';
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right:30px;
+}
+
+#about {
+    position: relative;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color:#4aaaa5;
+    border-bottom: 1px solid grey;
+}
+
+img {
+    width:250px;
+    position:relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+footer {
+  position: fixed;
+  bottom: 30px;
+  width: 99%;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  font-family: 'Georgia';
+  border-top: 8px solid #4aaaa5;
+  padding-top: 40px;
+  font-size: x-small;
+}
+
+#this {
+    width:960px;
+    height: 600px;
+    color:#777777;
+    margin-left: 25%;
+    margin-top: 30px;
+    border-color: #dddddd;
+    background-color:#ffffff;
+    font-family: 'Arial';
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right:30px;
+}
+
+.smoke {
+    position: absolute;
+    background: #4aaaa5;
+    color:white;
+    width: 250px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.one {
+    position: fixed;
+    background: #4aaaa5;
+    color:white;
+    width: 250px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.mural {
+    position: fixed;
+    background: #4aaaa5;
+    color:white;
+    width: 250px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 560px;
+}
+
+.steph {
+    position: fixed;
+    background: #4aaaa5;
+    color:white;
+    width: 250px;
+    text-align: center;
+    margin-top: 320px;
+    margin-left: 280px;
+}
+
+.wall {
+    position: fixed;
+    background: #4aaaa5;
+    color:white;
+    width: 250px;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 560px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
