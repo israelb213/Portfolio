@@ -48,7 +48,7 @@ ul {
     float: right;
 }
 
-#about {
+#port {
     width:960px;
     height: 700px;
     color:#777777;
@@ -63,25 +63,62 @@ ul {
     padding-right:30px;
 }
 
+
 h2 {
     color:#4aaaa5;
     border-bottom: 1px solid grey;
 }
 
-img {
-    width:250px;
-    position:relative;
-    margin-right: 30px;
-    margin-bottom: 25px;
+.row {
+    height: 250px;
 }
 
-#linked {
-    float: left;
-}
-
-#resume {
+.finder {
     position: absolute;
-    margin-top: 70px;
+    background: #4aaaa5;
+    color:white;
+    height:50px;
+    width: 420px;
+    text-align: center;
+    transform:translateY(-50%);
+    margin-bottom: 35px;
+}
+
+.brown {
+    position: absolute;
+    background: #4aaaa5;
+    color:white;
+    height:20px;
+    width: 420px;
+    text-align: center;
+    transform:translateY(-50%);
+    padding-bottom: 40px;
+}
+
+.box {
+    position: absolute;
+    background: #4aaaa5;
+    color:white;
+    height:20px;
+    width: 420px;
+    text-align: center;
+    transform:translateY(-50%);
+    padding-bottom: 40px;
+}
+
+.twilight {
+    position: absolute;
+    background: #4aaaa5;
+    color:white;
+    height:20px;
+    width: 250px;
+    text-align: center;
+    transform:translateY(-50%);
+    padding-bottom: 40px;
+}
+
+#icon {
+    height: 250px;
 }
 
 footer {

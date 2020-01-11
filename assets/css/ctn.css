@@ -48,7 +48,7 @@ ul {
     float: right;
 }
 
-#about {
+#ctn_form {
     width:960px;
     height: 700px;
     color:#777777;
@@ -63,28 +63,33 @@ ul {
     padding-right:30px;
 }
 
+
 h2 {
     color:#4aaaa5;
     border-bottom: 1px solid grey;
 }
 
-img {
-    width:250px;
-    position:relative;
-    margin-right: 30px;
-    margin-bottom: 25px;
-}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 
-#linked {
-    float: left;
-}
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
 
-#resume {
-    position: absolute;
-    margin-top: 70px;
-}
-
-footer {
+  footer {
     position: absolute;
     bottom: 30px;
     width: 980px;
